@@ -177,16 +177,6 @@ button {
   border-radius: 20px;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 36px;
-}
-
 :root {
   --brand-color-dark-grey: #212121;
   --brand-color-white: #ffffff;
