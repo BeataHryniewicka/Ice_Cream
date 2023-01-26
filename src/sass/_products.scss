@@ -23,9 +23,6 @@
     margin-bottom: 144px;
   }
 
-  // &__types {
-  // }
-
   .products-item {
     background-color: #ffb8ca;
     color: #ffffff;
@@ -76,15 +73,15 @@
       &::after {
         position: absolute;
         display: block;
-        background-image: url(../images/products/ice/arrow-right.png);
+        background-image: url(../images/products/dot.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         content: '';
-        width: 40px;
-        height: 40px;
+        width: 6px;
+        height: 6px;
         bottom: 70px;
-        right: 120px;
+        right: 20px;
       }
     }
 
@@ -95,11 +92,26 @@
       width: 200px;
       line-height: 152%;
     }
+    &__button {
+      position: absolute;
+      display: block;
+      background-image: url(../images/products/arrow-right.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      content: '';
+      width: 40px;
+      height: 40px;
+      bottom: 70px;
+      right: 120px;
+    }
   }
 
-  // @media (min-width: 768px) {
-  // }
+  @media (min-width: 768px) {
+    background-color: #c2e297;
+  }
 
-  // @media (min-width: 1280px) {
-  // }
+  @media (min-width: 1280px) {
+    background-color: #f0d1a5;
+  }
 }
