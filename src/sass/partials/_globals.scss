@@ -13,6 +13,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-family: 'Titan One';
 }
 img {
   display: block;
@@ -42,9 +43,9 @@ button {
   padding-bottom: 94px;
 }
 .container {
-  width: 1280px;
+  // width: 1280px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 36px;
 }
 :root {
   --brand-color-dark-grey: #212121;
