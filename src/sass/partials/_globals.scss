@@ -1,65 +1,53 @@
-// body {
-//   font-family: "Roboto", sans-serif;
-//   background-color: var(--brand-color-white);
-//   color: var(--brand-color-dark-grey);
-//   font-size: 14px;
-//   letter-spacing: 0.03em;
-// }
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6,
-// p {
-//   margin: 0;
-// }
-// img {
-//   display: block;
-//   max-width: 100%;
-//   height: auto;
-// }
-// ul,
-// ol {
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-// }
-// a {
-//   text-decoration: none;
-// }
-// address {
-//   font-style: normal;
-// }
-// button {
-//   display: block;
-//   cursor: pointer;
-//   border: none;
-//   border-radius: 4px;
-// }
-// .section {
-//   padding-top: 94px;
-//   padding-bottom: 94px;
-// }
-// .container {
-//   width: 1200px;
-//   margin: 0 auto;
-//   padding: 0 15px;
-// }
-// :root {
-//   --brand-color-dark-grey: #212121;
-//   --brand-color-white: #ffffff;
-//   --brand-color-grey: #757575;
-//   --brand-color-blue: #2196f3;
-//   --brand-color-black: #000000;
-//   --brand-color-background-black: #2f303a;
-//   --brand-color-light-grey: #f5f4fa;
-//   --brand-color-bg-hero: #2f303a66;
-//   --brand-color-bg-footer-icon: #ffffff1a;
-//   --brand-color-icon: #afb1b8;
-// }
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-// }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h4,
+h5,
+p,
+ul,
+address,
+fieldset,
+textarea,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  resize: none;
+}
+
+// Background Colors
+$BgMainPinkColor: #ffb8ca;
+$BgLightPinkColor: #fff5f6;
+$BgDarkPinkColor: #e17992;
+$BgMainGreenColor: #c2e297;
+$BgMainBrownColor: #f0d1a5;
+// Font Colors
+$FoMainWhiteColor: #ffffff;
+$FoMainBlackColor: #000000;
+$FoMainGreyColor: #907e82;
+$FoDarkPinkColor: #d41443;
+$FoMainPinkColor: #ffa5ba;
+// Hover Colors
+$HvMainHoverColor: #c7133e;
+$HvMecondaryHoverColor: #ecebeb;
+// Font Families
+$MainFont: 'DM Sans', sans-serif;
+$SecondaryFont: 'Titan One', cursive;
+// Border Colors
+$BorderMainColor: #e1e1e1;
+$BorderSecondaryColor: #e18298;
+// Device breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1280px;
