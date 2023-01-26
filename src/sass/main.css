@@ -75,7 +75,7 @@
 .products .products-item__tittle::before {
   display: block;
   position: absolute;
-  background-image: url(../images/products/ice/ice_mb@1.jpg);
+  background-image: url(../images/products/ice/ice_mb@1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,17 +86,27 @@
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products .products-item__tittle::before {
-    background-image: url(../images/products/ice/ice_mb@2.jpg);
+    background-image: url(../images/products/ice/ice_mb@2.png);
   }
 }
 @media (min-width: 768px) {
   .products .products-item__tittle::before {
-    background-image: url(../images/products/ice/ice_tb@2.jpg);
+    background-image: url(../images/products/ice/ice_tb@1.png);
   }
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products .products-item__tittle::before {
-    background-image: url(../images/products/ice/ice_tb@2.jpg);
+    background-image: url(../images/products/ice/ice_tb@2.png);
+  }
+}
+@media (min-width: 1280px) {
+  .products .products-item__tittle::before {
+    background-image: url(../images/products/ice/ice_dt@1.png);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products .products-item__tittle::before {
+    background-image: url(../images/products/ice/ice_dt@2.png);
   }
 }
 .products .products-item__tittle__tittle:after {
