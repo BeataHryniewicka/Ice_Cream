@@ -109,8 +109,18 @@
     background-image: url(../images/products/ice/ice_dt@2.png);
   }
 }
-.products .products-item__tittle__tittle:after {
+.products .products-item__tittle::after {
   position: absolute;
+  display: block;
+  background-image: url(../images/products/ice/arrow-right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 40px;
+  height: 40px;
+  bottom: 70px;
+  right: 120px;
 }
 .products .products-item__description {
   font-family: DM Sans;
