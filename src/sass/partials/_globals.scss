@@ -1,3 +1,58 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h4,
+h5,
+p,
+ul,
+address,
+fieldset,
+textarea,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  resize: none;
+}
+
+// Background Colors
+$BgMainPinkColor: #ffb8ca;
+$BgLightPinkColor: #fff5f6;
+$BgDarkPinkColor: #e17992;
+$BgMainGreenColor: #c2e297;
+$BgMainBrownColor: #f0d1a5;
+// Font Colors
+$FoMainWhiteColor: #ffffff;
+$FoMainBlackColor: #000000;
+$FoMainGreyColor: #907e82;
+$FoDarkPinkColor: #d41443;
+$FoMainPinkColor: #ffa5ba;
+// Hover Colors
+$HvMainHoverColor: #c7133e;
+$HvMecondaryHoverColor: #ecebeb;
+// Font Families
+$MainFont: 'DM Sans', sans-serif;
+$SecondaryFont: 'Titan One', cursive;
+// Border Colors
+$BorderMainColor: #e1e1e1;
+$BorderSecondaryColor: #e18298;
+// Device breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1280px;
+=======
 body {
   font-family: DM Sans, sans-serif;
   background-color: #fff5f6;
@@ -64,3 +119,4 @@ button {
 *::after {
   box-sizing: border-box;
 }
+
