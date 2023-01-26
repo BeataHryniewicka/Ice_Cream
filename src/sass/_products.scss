@@ -11,6 +11,7 @@
     color: #ffa5ba;
     font-family: Titan One;
     font-weight: 400;
+    margin-bottom: 15px;
   }
   &__tittle {
     font-weight: 400;
@@ -20,11 +21,11 @@
     text-transform: uppercase;
     color: #d41443;
     margin-bottom: 144px;
-
-    &__types {
-      padding: 0 20px;
-    }
   }
+
+  // &__types {
+  // }
+
   .products-item {
     background-color: #ffb8ca;
     color: #ffffff;
@@ -33,16 +34,44 @@
     column-gap: 16px;
     border-radius: 24px;
     text-align: center;
-    padding: 0 20px;
+    padding: 140px 20px;
+    position: relative;
 
     &__tittle {
       font-weight: 400;
       font-size: 20px;
       line-height: 0.86;
       margin-bottom: 30px;
-      margin-top: 22px;
       text-transform: uppercase;
+
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/ice/ice_mb@1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 375px;
+
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/products/ice/ice_mb@2.jpg);
+        }
+        @media (min-width: 768px) {
+          background-image: url(../images/products/ice/ice_tb@2.jpg);
+        }
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/products/ice/ice_tb@2.jpg);
+        }
+      }
+
+      &__tittle:after {
+        position: absolute;
+      }
     }
+
     &__description {
       font-family: DM Sans;
       font-weight: 700;
@@ -50,11 +79,11 @@
       width: 200px;
       line-height: 152%;
     }
-
-    // @media (min-width: 768px) {
-    // }
-
-    // @media (min-width: 1280px) {
-    // }
   }
+
+  // @media (min-width: 768px) {
+  // }
+
+  // @media (min-width: 1280px) {
+  // }
 }
