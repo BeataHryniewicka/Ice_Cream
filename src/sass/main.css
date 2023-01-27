@@ -128,6 +128,123 @@
   transform: translate(-50%);
 }
 
+.button__mobilemenu {
+  display: flex;
+  width: 209px;
+  height: 44px;
+  border-radius: 22px;
+  background: #fff;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: #D41443;
+}
+
+.button__products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61.2px;
+  height: 24px;
+  background: #D41443;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.button__howitsmade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82.8px;
+  height: 24px;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #D41443;
+}
+
+.button__readmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 44px;
+  background: #fff;
+  border: none;
+  border-radius: 22px;
+  color: #D41443;
+}
+
+.button__ourlocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 161.45px;
+  height: 44px;
+  background: #D41443;
+  border: none;
+  border-radius: 22px;
+  color: #fff;
+}
+
+.button__franchise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 161.45px;
+  height: 44px;
+  background: #fff;
+  border: none;
+  border-radius: 22px;
+  color: #D41443;
+}
+
+.button__mobilemenu:hover,
+.button__howitsmade:hover,
+.button__readmore:hover,
+.button__franchise:hover {
+  background: #ECEBEB;
+  cursor: pointer;
+}
+
+.button__mobilemenu:focus,
+.button__howitsmade:focus,
+.button__readmore:focus,
+.button__franchise:focus {
+  background: #ECEBEB;
+  cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h4,
+h5,
+p,
+ul,
+address,
+fieldset,
+textarea,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  resize: none;
+}
+
 body {
   font-family: DM Sans, sans-serif;
   color: #000000;
@@ -191,4 +308,24 @@ button {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.container {
+  margin: 0;
+}
+
+@media screen and (min-width: $mobile) {
+  .container {
+    width: $mobile;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .container {
+    width: $tablet;
+  }
+}
+
+@media screen and (min-width: $laptop) {
+  .container {
+    width: $laptop;
+  }
+}
