@@ -42,47 +42,6 @@
     display: flex;
     flex-direction: column;
 
-    &__ice {
-      background-color: #ffb8ca;
-    }
-    &__coffee {
-      background-color: #f0d1a5;
-    }
-
-    &__milkshakers {
-      background-color: #c2e297;
-    }
-
-    &__tittle {
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 0.86;
-      margin-top: 160px;
-      text-transform: uppercase;
-
-      &::before {
-        display: block;
-        position: absolute;
-        background-image: url(../images/products/ice/ice_mb@1.png);
-        background-repeat: no-repeat;
-        content: '';
-        width: 249px;
-        height: 252px;
-        bottom: 350px;
-        left: 50%;
-        transform: translate(-50%);
-      }
-
-      &::after {
-        content: '...';
-        font-size: 25px;
-        color: #ffff;
-        display: block;
-        letter-spacing: 4px;
-        margin-top: 23px;
-      }
-    }
-
     &__description {
       font-family: DM Sans;
       font-weight: 700;
@@ -103,31 +62,85 @@
       left: 50%;
       transform: translate(-50%);
     }
+    &__ice {
+      background-color: #ffb8ca;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
 
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url(../images/products/ice/ice_mb@2.png);
+    &__coffee {
+      background-color: #f0d1a5;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
     }
-    @media (min-width: 768px) {
-      background-image: url(../images/products/ice/ice_tb@1.png);
+
+    &__milkshakers {
+      background-color: #c2e297;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
     }
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url(../images/products/ice/ice_tb@2.png);
-    }
-    @media (min-width: 1280px) {
-      background-image: url(../images/products/ice/ice_dt@1.png);
-    }
-    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: url(../images/products/ice/ice_dt@2.png);
+
+    &__tittle {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 0.86;
+      margin-top: 160px;
+      text-transform: uppercase;
+
+      &::after {
+        content: '...';
+        font-size: 25px;
+        color: #ffff;
+        display: block;
+        letter-spacing: 4px;
+        margin-top: 23px;
+      }
     }
   }
 }
 
-// @media (min-width: 768px) {
-
-//   background-color: #F0D1A5;
-// ;
+// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   background-image: url(../images/products/ice/ice_mb@2.png);
 // }
-
+// @media (min-width: 768px) {
+//   background-image: url(../images/products/ice/ice_tb@1.png);
+// }
+// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   background-image: url(../images/products/ice/ice_tb@2.png);
+// }
 // @media (min-width: 1280px) {
-//   background-color: #f0d1a5;
+//   background-image: url(../images/products/ice/ice_dt@1.png);
+// }
+// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//   background-image: url(../images/products/ice/ice_dt@2.png);
 // }
