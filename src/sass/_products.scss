@@ -40,8 +40,15 @@
     display: flex;
     flex-direction: column;
 
-    &__primary {
+    &__ice {
       background-color: #ffb8ca;
+    }
+    &__coffee {
+      background-color: #f0d1a5;
+    }
+
+    &__milkshakers {
+      background-color: #c2e297;
     }
 
     &__tittle {
