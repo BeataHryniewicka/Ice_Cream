@@ -3,6 +3,8 @@
   padding: 0 20px;
   display: flex;
   flex-direction: column;
+  max-width: 280px;
+  margin: auto;
 
   &__label {
     font-weight: 400;
@@ -62,6 +64,7 @@
         display: block;
         position: absolute;
         background-image: url(../images/products/ice/ice_mb@1.png);
+        background-repeat: no-repeat;
         content: '';
         width: 249px;
         height: 252px;
