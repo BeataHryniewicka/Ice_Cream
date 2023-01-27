@@ -76,6 +76,9 @@
         left: 50%;
         transform: translate(-50%);
       }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/ice/ice_mb@2.png);
+      }
     }
 
     &__coffee {
@@ -83,7 +86,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-image: url(../images/products/coffee/cf_mb@1.png);
         background-repeat: no-repeat;
         content: '';
         width: 249px;
@@ -92,6 +95,9 @@
         left: 50%;
         transform: translate(-50%);
       }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url url(../images/products/coffee/cf_mb@2.png);
+      }
     }
 
     &__milkshakers {
@@ -99,7 +105,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-image: url(../images/products/milkshakes/ms_mb@1.png);
         background-repeat: no-repeat;
         content: '';
         width: 249px;
@@ -107,6 +113,9 @@
         bottom: 350px;
         left: 50%;
         transform: translate(-50%);
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/milkshakes/ms_mb@2.png);
       }
     }
 
@@ -128,19 +137,3 @@
     }
   }
 }
-
-// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//   background-image: url(../images/products/ice/ice_mb@2.png);
-// }
-// @media (min-width: 768px) {
-//   background-image: url(../images/products/ice/ice_tb@1.png);
-// }
-// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//   background-image: url(../images/products/ice/ice_tb@2.png);
-// }
-// @media (min-width: 1280px) {
-//   background-image: url(../images/products/ice/ice_dt@1.png);
-// }
-// @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//   background-image: url(../images/products/ice/ice_dt@2.png);
-// }
