@@ -8,7 +8,10 @@
     align-items: center;
     justify-content: center;
     color: #D41443;
-
+font-family: $MainFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.312;
 }
 
 
@@ -22,6 +25,10 @@
     border: none;
     border-radius: 20px;
     color: #fff;
+    font-family: $MainFont;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 1.25;
 }
 
 
@@ -35,6 +42,10 @@
     border: none;
     border-radius: 20px;
     color: #D41443;
+    font-family: $MainFont;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 1.25;
 
 }
 
@@ -48,6 +59,10 @@
     border: none;
     border-radius: 22px;
     color: #D41443;
+    font-family: $MainFont;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.285;
 
 }
 
@@ -61,6 +76,10 @@
     border: none;
     border-radius: 22px;
     color: #fff;
+    font-family: $MainFont;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.312;
 }
 
 
@@ -75,6 +94,10 @@
     border: none;
     border-radius: 22px;
     color: #D41443;
+    font-family: $MainFont;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.312;
 }
 
 .button__mobilemenu:hover,
