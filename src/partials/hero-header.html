@@ -1,0 +1,98 @@
+<header class="header">
+  <div class="header__container">
+    <div class="header__flex">
+      <img
+        id="heroheader"
+        class="header__logo"
+        src="./images/header/logo.png"
+        srcset="./images/header/logox2.png 2x"
+      />
+
+      <div class="header__flexicon">
+        <button
+          class="header__btn-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <img class="mobilemenu__icon" src="images/header/hdr_burger.png" />
+        </button>
+        <button class="header__btn-buy" type="button">
+          Buy now
+          <img class="header__icon" src="images/header/hdr_Vector.png" />
+        </button>
+      </div>
+    </div>
+    <div class="header__box">
+      <h1 class="header__tittle">
+        ice cream made with
+        <span class="header__tittle--pink">passion</span>
+      </h1>
+      <button class="header__button" type="button" onclick="window.location.href='#products'">
+        Products
+      </button>
+      <!--  <a href="#btn_rdmore"
+          ><button class="header__button header__button--white" type="button">
+            How it's made?
+          </button></a
+        > -->
+      <button
+        class="header__button header__button--white"
+        type="button"
+        onclick="window.location.href='#btn_rdmore'"
+      >
+        How it's made?
+      </button>
+    </div>
+    <picture>
+      <source
+        srcset="./images/header/hdr_ice_d.png 1x, ./images/header/hdr_ice_dx2.png 2x"
+        media="(min-width: 1200px)"
+      />
+
+      <source
+        srcset="./images/header/hdr_ice_t.png 1x, ./images/header/hdr_ice_tx2.png 2x"
+        media="(min-width: 767px)"
+      />
+      <source
+        srcset="./images/header/hdr_ice_m.png 1x, ./images/header/hdr_ice_mx2.png 2x"
+        media="(min-width: 321px)"
+      />
+      <img class="header__ice" src="./images/header/hdr_ice_320x2.png" alt="ice cream" />
+      <!--  <img
+          class="header__ice"
+          src="./images/hdr_ice_320x2.png"
+          alt="ice cream"
+        /> -->
+    </picture>
+  </div>
+</header>
+
+<div class="mobilemenu js-menu-container">
+  <button class="mobilemenu__closebtn js-close-menu">
+    <img src="images/header/hdr_btn-close.png" />
+  </button>
+  <button class="mobilemenu__btn-buy" type="button">
+    Buy now <img class="mobilemenu__icon" src="images/header/hdr_Vector.png" />
+  </button>
+
+  <ul class="mobilemenu__details">
+    <li>
+      <a class="mobilemenu__anchor mobilemenu__anchor--active" href="index.html#heroheader">Home</a>
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#about">About us</a>
+      <!--sekcja z krowa -->
+    </li>
+    <!-- <a href="#about">Testimonials</a> <h2 id="about">About</h2>-->
+    <li>
+      <a class="mobilemenu__anchor" href="#btn_rdmore">How it's made?</a>
+      <!--ta kotwica odnosi sie do butona read more (sekcja w oknie modalnym) -->
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#products">Our products</a>
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#contacts">Contact</a>
+    </li>
+  </ul>
+</div>
