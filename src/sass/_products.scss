@@ -24,6 +24,7 @@
     text-align: center;
     text-transform: uppercase;
     color: $FoDarkPinkColor;
+    font-family: $SecondaryFont;
     margin-bottom: 144px;
   }
   &__types {
@@ -120,6 +121,7 @@
     }
 
     &__tittle {
+      font-family: $SecondaryFont;
       font-weight: 400;
       font-size: 20px;
       line-height: 0.86;
