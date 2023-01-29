@@ -1,0 +1,346 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+.products {
+  background-color: #ffffff;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: auto;
+}
+.products__label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  font-family: Titan One;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.products__tittle {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 144px;
+}
+.products__types {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 130px;
+}
+.products .products-item {
+  color: #ffffff;
+  width: 100%;
+  height: 485px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.products .products-item__description {
+  font-family: DM Sans;
+  font-weight: 700;
+  margin: 30px auto;
+  width: 200px;
+  line-height: 152%;
+}
+.products .products-item__button {
+  position: absolute;
+  background-image: url(../images/products/arrow-right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.products .products-item__ice {
+  background-color: #ffb8ca;
+}
+.products .products-item__ice::before {
+  display: block;
+  position: absolute;
+  background-image: url(../images/products/ice/ice_mb@1.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 249px;
+  height: 252px;
+  bottom: 350px;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products .products-item__ice {
+    background-image: url(../images/products/ice/ice_mb@2.png);
+  }
+}
+.products .products-item__coffee {
+  background-color: #f0d1a5;
+}
+.products .products-item__coffee::before {
+  display: block;
+  position: absolute;
+  background-image: url(../images/products/coffee/cf_mb@1.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 249px;
+  height: 252px;
+  bottom: 350px;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products .products-item__coffee {
+    background-image: url url(../images/products/coffee/cf_mb@2.png);
+  }
+}
+.products .products-item__milkshakers {
+  background-color: #c2e297;
+}
+.products .products-item__milkshakers::before {
+  display: block;
+  position: absolute;
+  background-image: url(../images/products/milkshakes/ms_mb@1.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 249px;
+  height: 252px;
+  bottom: 350px;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products .products-item__milkshakers {
+    background-image: url(../images/products/milkshakes/ms_mb@2.png);
+  }
+}
+.products .products-item__tittle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.86;
+  margin-top: 160px;
+  text-transform: uppercase;
+}
+.products .products-item__tittle::after {
+  content: "...";
+  font-size: 25px;
+  color: white;
+  display: block;
+  letter-spacing: 4px;
+  margin-top: 23px;
+}
+
+.button__mobilemenu {
+  display: flex;
+  width: 209px;
+  height: 44px;
+  border-radius: 22px;
+  background: #fff;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  color: #D41443;
+}
+
+.button__products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61.2px;
+  height: 24px;
+  background: #D41443;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.button__howitsmade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82.8px;
+  height: 24px;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  color: #D41443;
+}
+
+.button__readmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 44px;
+  background: #fff;
+  border: none;
+  border-radius: 22px;
+  color: #D41443;
+}
+
+.button__ourlocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 161.45px;
+  height: 44px;
+  background: #D41443;
+  border: none;
+  border-radius: 22px;
+  color: #fff;
+}
+
+.button__franchise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 161.45px;
+  height: 44px;
+  background: #fff;
+  border: none;
+  border-radius: 22px;
+  color: #D41443;
+}
+
+.button__mobilemenu:hover,
+.button__howitsmade:hover,
+.button__readmore:hover,
+.button__franchise:hover {
+  background: #ECEBEB;
+  cursor: pointer;
+}
+
+.button__mobilemenu:focus,
+.button__howitsmade:focus,
+.button__readmore:focus,
+.button__franchise:focus {
+  background: #ECEBEB;
+  cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h4,
+h5,
+p,
+ul,
+address,
+fieldset,
+textarea,
+figure {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  resize: none;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: "Titan One";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+:root {
+  --brand-color-dark-grey: #212121;
+  --brand-color-white: #ffffff;
+  --brand-color-grey: #757575;
+  --brand-color-blue: #2196f3;
+  --brand-color-black: #000000;
+  --brand-color-background-black: #2f303a;
+  --brand-color-light-grey: #f5f4fa;
+  --brand-color-bg-hero: #2f303a66;
+  --brand-color-bg-footer-icon: #ffffff1a;
+  --brand-color-icon: #afb1b8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}/*# sourceMappingURL=main.css.map */
