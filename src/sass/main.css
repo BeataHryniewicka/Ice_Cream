@@ -90,6 +90,7 @@
   color: white;
 
   
+
 .section-bgrcolor {
   background-color: #fff5f6;
   padding-top: 125px;
@@ -130,6 +131,11 @@
   color: #000000;
   padding: 46px 50px 0 50px;
 }
+
+.about__comment {
+
+.about__comment { 
+
 .about__comment { 
   font-family: "DM Sans";
   font-style: normal;
@@ -158,10 +164,43 @@
   padding-bottom: 25px;
 }
 .contacts__paragraf2--days {
+
+
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+
+
+
+
+  line-height: 1, 25;
+}
+.contacts__paragraf1--location {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+.contacts__paragraf1--text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #907E82;
+}
+.contacts__paragraf2 {
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.contacts__paragraf2--days {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
   color: #000000;
 }
 .contacts__paragraf2--hours {
@@ -222,6 +261,7 @@
 .contacts__button--element:focus {
   background: #D41443;
   color: #FFFFFF;
+
 
   line-height: 162%;
   color: #907e82;
@@ -980,4 +1020,5 @@ button {
   .container {
     width: 1280px;
   }
+
 }/*# sourceMappingURL=main.css.map */
