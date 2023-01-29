@@ -3,9 +3,9 @@
  * Główny plik dla stylów.
  * Wszystkie partials podłączamy tutaj.
  */
- feature/contacts
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+feature/contacts .example {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   background-color: #fff;
   color: #424242;
@@ -25,7 +25,7 @@
 
 .example .background {
   height: 240px;
-  background-image: url("../images/demo.jpg");
+  background-image: url('../images/demo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -48,7 +48,7 @@
 .contacts__list--element {
   max-width: 220px;
   height: 427px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   margin: 0 auto;
@@ -65,7 +65,7 @@
   padding-bottom: 25px;
 }
 .contacts__paragraf1--cafe {
-  background: #F0D1A5;
+  background: #f0d1a5;
   border-radius: 4px;
   width: 80px;
   height: 16px;
@@ -73,14 +73,14 @@
   text-align: center;
   justify-content: center;
   color: white;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1, 25;
 }
 .contacts__paragraf1--foodtruck {
-  background: #C2E297;
+  background: #c2e297;
   border-radius: 4px;
   width: 130px;
   height: 16px;
@@ -88,7 +88,8 @@
   text-align: center;
   justify-content: center;
   color: white;
-  
+}
+
 .section-bgrcolor {
   background-color: #fff5f6;
   padding-top: 125px;
@@ -122,65 +123,64 @@
   padding-left: 59px;
 }
 .about__important {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-weight: 700;
   font-size: 12px;
   line-height: 162%;
   color: #000000;
   padding: 46px 50px 0 50px;
 }
-.about__comment { main
-  font-family: "DM Sans";
+.about__comment {
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
- feature/contacts
   line-height: 1, 25;
 }
 .contacts__paragraf1--location {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
 }
 .contacts__paragraf1--text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #907E82;
+  color: #907e82;
 }
 .contacts__paragraf2 {
-  border-top: 1px solid #E1E1E1;
-  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .contacts__paragraf2--days {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   color: #000000;
 }
 .contacts__paragraf2--hours {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #FFA5BA;
+  color: #ffa5ba;
 }
 .contacts__paragraf3 {
   padding-top: 25px;
 }
 .contacts__paragraf3--element {
   text-decoration: none;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color: #907E82;
+  color: #907e82;
 }
 .contacts__button {
   margin: 0 auto;
@@ -204,10 +204,10 @@
 .contacts__button--element {
   width: 161px;
   height: 44px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 22px;
-  color: #D41443;
-  font-family: "DM Sans";
+  color: #d41443;
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -215,12 +215,12 @@
   align-items: center;
 }
 .contacts__button--element:hover {
-  background: #D41443;
-  color: #FFFFFF;
+  background: #d41443;
+  color: #ffffff;
 }
 .contacts__button--element:focus {
-  background: #D41443;
-  color: #FFFFFF;
+  background: #d41443;
+  color: #ffffff;
 
   line-height: 162%;
   color: #907e82;
@@ -241,7 +241,7 @@
   color: #d41443;
 }
 .statistic__text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -373,7 +373,7 @@ button {
     padding: 7px 0;
     width: 160px;
     height: 44px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -383,7 +383,8 @@ button {
     background: var(--brand-white);
     margin-left: 30px;
   }
-  .header__btn-buy:hover, .header__btn-buy:focus {
+  .header__btn-buy:hover,
+  .header__btn-buy:focus {
     background-color: #ecebeb;
   }
 }
@@ -425,7 +426,7 @@ button {
 }
 .header__tittle {
   margin-bottom: 19px;
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -456,7 +457,7 @@ button {
 }
 .header__button {
   padding: 7px 15px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 8px;
@@ -465,14 +466,16 @@ button {
   border-radius: 20px;
   background: #d41443;
 }
-.header__button:hover, .header__button:focus {
+.header__button:hover,
+.header__button:focus {
   background-color: #c7133e;
 }
 .header__button--white {
   color: #d41443;
   background: #ffffff;
 }
-.header__button--white:hover, .header__button--white:focus {
+.header__button--white:hover,
+.header__button--white:focus {
   background-color: #ecebeb;
 }
 @-webkit-keyframes slide {
@@ -557,7 +560,7 @@ button {
 }
 .header__ice {
   -webkit-animation: 1s ease-out 0s 1 slide;
-          animation: 1s ease-out 0s 1 slide;
+  animation: 1s ease-out 0s 1 slide;
   position: absolute;
   top: 77px;
   left: 36px;
@@ -615,11 +618,12 @@ button {
   border-radius: 50%;
   outline: none;
 }
-.mobilemenu__closebtn:hover, .mobilemenu__closebtn:focus {
+.mobilemenu__closebtn:hover,
+.mobilemenu__closebtn:focus {
   fill: var(--brand-blue);
 }
 .mobilemenu__btn-buy {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -639,7 +643,7 @@ button {
 .mobilemenu__anchor {
   display: block;
   font-style: normal;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -651,7 +655,8 @@ button {
   color: var(--icon-fill);
   margin-bottom: 22px;
 }
-.mobilemenu__anchor:hover, .mobilemenu__anchor:focus {
+.mobilemenu__anchor:hover,
+.mobilemenu__anchor:focus {
   color: var(--icon-fill);
 }
 
@@ -712,7 +717,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  content: "";
+  content: '';
   width: 40px;
   height: 40px;
   bottom: 40px;
@@ -727,14 +732,17 @@ button {
   position: absolute;
   background-image: url(../images/products/ice/ice_mb@1.png);
   background-repeat: no-repeat;
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   bottom: 350px;
   left: 50%;
   transform: translate(-50%);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__ice {
     background-image: url(../images/products/ice/ice_mb@2.png);
   }
@@ -747,14 +755,17 @@ button {
   position: absolute;
   background-image: url(../images/products/coffee/cf_mb@1.png);
   background-repeat: no-repeat;
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   bottom: 350px;
   left: 50%;
   transform: translate(-50%);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__coffee {
     background-image: url url(../images/products/coffee/cf_mb@2.png);
   }
@@ -767,14 +778,17 @@ button {
   position: absolute;
   background-image: url(../images/products/milkshakes/ms_mb@1.png);
   background-repeat: no-repeat;
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   bottom: 350px;
   left: 50%;
   transform: translate(-50%);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__milkshakers {
     background-image: url(../images/products/milkshakes/ms_mb@2.png);
   }
@@ -787,7 +801,7 @@ button {
   text-transform: uppercase;
 }
 .products .products-item__tittle::after {
-  content: "...";
+  content: '...';
   font-size: 25px;
   color: white;
   display: block;
@@ -805,15 +819,13 @@ button {
   align-items: center;
   justify-content: center;
 
-
-  color: #D41443;
-  font-family: "DM Sans";
+  color: #d41443;
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.312;
   color: #d41443;
-
 }
 
 .button__products {
@@ -979,5 +991,4 @@ button {
   .container {
     width: 1280px;
   }
- main
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
