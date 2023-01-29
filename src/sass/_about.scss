@@ -1,0 +1,92 @@
+.section-bgrcolor {
+  background-color: #fff5f6;
+  padding-top: 125px;
+}
+
+// .bgr-img {
+//   background-image: url(../images/About/Milk-mobile-min.png);
+//   width: 100%;
+//   background-repeat: no-repeat;
+// }
+
+.about {
+  background-color: #fff5f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 39px;
+
+  &__label {
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffa5ba;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    padding-bottom: 26px;
+    padding-right: 61px;
+    padding-left: 59px;
+  }
+  &__important {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 162%;
+    color: #000000;
+    padding: 46px 50px 0 50px;
+  }
+  &__comment {
+    background: url(../images/About/Milk-mobile-min.png) no-repeat center bottom;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    color: #907e82;
+    padding: 47px 50px 0 50px;
+    margin-bottom: 47px;
+  }
+}
+
+.statistic {
+  padding-left: 20px;
+  padding-right: 70px;
+  margin-top: 38px;
+  &__image {
+    //
+  }
+  &__value {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+  &__text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    color: #000000;
+  }
+}
+.vector {
+  height: 8px;
+  width: 14px;
+  margin-left: 13px;
+}
+hr {
+  visibility: hidden;
+}
