@@ -1,0 +1,139 @@
+.products {
+  background-color: #ffffff;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: auto;
+
+  &__label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    font-family: Titan One;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  &__tittle {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $FoDarkPinkColor;
+    margin-bottom: 144px;
+  }
+  &__types {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+  }
+  .products-item {
+    color: #ffffff;
+    width: 100%;
+    height: 485px;
+    border-radius: 24px;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    &__description {
+      font-family: DM Sans;
+      font-weight: 700;
+      margin: 30px auto;
+      width: 200px;
+      line-height: 152%;
+    }
+    &__button {
+      position: absolute;
+      background-image: url(../images/products/arrow-right.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      content: '';
+      width: 40px;
+      height: 40px;
+      bottom: 40px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    &__ice {
+      background-color: #ffb8ca;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/ice/ice_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/ice/ice_mb@2.png);
+      }
+    }
+
+    &__coffee {
+      background-color: #f0d1a5;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/coffee/cf_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url url(../images/products/coffee/cf_mb@2.png);
+      }
+    }
+
+    &__milkshakers {
+      background-color: #c2e297;
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/products/milkshakes/ms_mb@1.png);
+        background-repeat: no-repeat;
+        content: '';
+        width: 249px;
+        height: 252px;
+        bottom: 350px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/products/milkshakes/ms_mb@2.png);
+      }
+    }
+
+    &__tittle {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 0.86;
+      margin-top: 160px;
+      text-transform: uppercase;
+
+      &::after {
+        content: '...';
+        font-size: 25px;
+        color: #ffff;
+        display: block;
+        letter-spacing: 4px;
+        margin-top: 23px;
+      }
+    }
+  }
+}
