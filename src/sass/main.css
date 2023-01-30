@@ -807,6 +807,13 @@ button {
   flex-direction: column;
   max-width: 280px;
   margin: auto;
+  margin-top: 122px;
+}
+@media (min-width: 768px) {
+  .products {
+    max-width: none;
+    padding: 0 34px;
+  }
 }
 .products__label {
   font-weight: 400;
@@ -815,7 +822,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: #ffa5ba;
-  font-family: Titan One;
+  font-family: "Titan One", cursive;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -826,12 +833,20 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: #d41443;
+  font-family: "Titan One", cursive;
   margin-bottom: 144px;
 }
 .products__types {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 130px;
+  row-gap: 129px;
+}
+@media (min-width: 768px) {
+  .products__types {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    justify-content: center;
+  }
 }
 .products .products-item {
   color: #ffffff;
@@ -843,6 +858,22 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+.products .products-item:last-child {
+  margin-bottom: 98px;
+}
+@media (min-width: 768px) {
+  .products .products-item {
+    margin-bottom: 112px;
+    width: 220px;
+  }
+}
+@media (min-width: 1280px) {
+  .products .products-item {
+    margin-bottom: 119px;
+    width: 329px;
+    height: 525px;
+  }
 }
 .products .products-item__description {
   font-family: DM Sans;
@@ -871,17 +902,45 @@ button {
   display: block;
   position: absolute;
   background-image: url(../images/products/ice/ice_mb@1.png);
-  background-repeat: no-repeat;
   content: "";
   width: 249px;
   height: 252px;
+  background-size: cover;
+  background-repeat: no-repeat;
   bottom: 350px;
   left: 50%;
   transform: translate(-50%);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .products .products-item__ice {
+  .products .products-item__ice::before {
     background-image: url(../images/products/ice/ice_mb@2.png);
+  }
+}
+@media (min-width: 768px) {
+  .products .products-item__ice::before {
+    background-image: url(../images/products/ice/ice_tb@1.png);
+    width: 220px;
+    height: 226px;
+    bottom: 365px;
+  }
+}
+@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+  .products .products-item__ice::before {
+    background-image: url(../images/products/ice/ice_tb@2.png);
+  }
+}
+@media (min-width: 1280px) {
+  .products .products-item__ice::before {
+    bottom: 390px;
+    background-image: url(../images/products/ice/ice_dt@1.png);
+    width: 335px;
+    height: 335px;
+    bottom: 395px;
+  }
+}
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+  .products .products-item__ice::before {
+    background-image: url(../images/products/ice/ice_dt@2.png);
   }
 }
 .products .products-item__coffee {
@@ -898,6 +957,11 @@ button {
   bottom: 350px;
   left: 50%;
   transform: translate(-50%);
+}
+@media (min-width: 1280px) {
+  .products .products-item__coffee::before {
+    bottom: 390px;
+  }
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products .products-item__coffee {
@@ -919,12 +983,18 @@ button {
   left: 50%;
   transform: translate(-50%);
 }
+@media (min-width: 1280px) {
+  .products .products-item__milkshakers::before {
+    bottom: 390px;
+  }
+}
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .products .products-item__milkshakers {
     background-image: url(../images/products/milkshakes/ms_mb@2.png);
   }
 }
 .products .products-item__tittle {
+  font-family: "Titan One", cursive;
   font-weight: 400;
   font-size: 20px;
   line-height: 0.86;
@@ -1199,5 +1269,4 @@ button {
   .container {
     width: 1280px;
   }
-
 }/*# sourceMappingURL=main.css.map */
