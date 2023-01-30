@@ -36,7 +36,7 @@
   padding-left: 59px;
 }
 .about__important {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-weight: 700;
   font-size: 12px;
   line-height: 162%;
@@ -45,7 +45,7 @@
 }
 .about__comment {
   background: url(../images/About/Milk-mobile-min.png) no-repeat center bottom;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -69,7 +69,7 @@
   color: #d41443;
 }
 .statistic__text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -103,7 +103,7 @@ hr {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -129,13 +129,13 @@ hr {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 .advantages-section__header {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -148,7 +148,7 @@ hr {
 }
 
 .advantages-section__description {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -196,7 +196,7 @@ hr {
 .contacts__list--element {
   max-width: 220px;
   height: 427px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   margin: 0 auto;
@@ -213,7 +213,7 @@ hr {
   padding-bottom: 25px;
 }
 .contacts__paragraf1--cafe {
-  background: #F0D1A5;
+  background: #f0d1a5;
   border-radius: 4px;
   width: 80px;
   height: 16px;
@@ -221,14 +221,14 @@ hr {
   text-align: center;
   justify-content: center;
   color: white;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1, 25;
 }
 .contacts__paragraf1--foodtruck {
-  background: #C2E297;
+  background: #c2e297;
   border-radius: 4px;
   width: 130px;
   height: 16px;
@@ -236,56 +236,56 @@ hr {
   text-align: center;
   justify-content: center;
   color: white;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1, 25;
 }
 .contacts__paragraf1--location {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
 }
 .contacts__paragraf1--text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #907E82;
+  color: #907e82;
 }
 .contacts__paragraf2 {
-  border-top: 1px solid #E1E1E1;
-  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .contacts__paragraf2--days {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   color: #000000;
 }
 .contacts__paragraf2--hours {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: #FFA5BA;
+  color: #ffa5ba;
 }
 .contacts__paragraf3 {
   padding-top: 25px;
 }
 .contacts__paragraf3--element {
   text-decoration: none;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color: #907E82;
+  color: #907e82;
 }
 .contacts__button {
   margin: 0 auto;
@@ -309,10 +309,10 @@ hr {
 .contacts__button--element {
   width: 161px;
   height: 44px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 22px;
-  color: #D41443;
-  font-family: "DM Sans";
+  color: #d41443;
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -320,16 +320,16 @@ hr {
   align-items: center;
 }
 .contacts__button--element:hover {
-  background: #D41443;
-  color: #FFFFFF;
+  background: #d41443;
+  color: #ffffff;
 }
 .contacts__button--element:focus {
-  background: #D41443;
-  color: #FFFFFF;
+  background: #d41443;
+  color: #ffffff;
 }
 
 .footer {
-  background-color: #FFF5F6;
+  background-color: #fff5f6;
   width: 100%;
   margin: auto;
   padding: 0 15px;
@@ -341,7 +341,7 @@ hr {
   justify-content: space-between;
 }
 .footer-first__titles {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   min-width: 14.625rem;
   max-width: 14.625rem;
   padding-left: 1.25rem rem;
@@ -382,7 +382,7 @@ hr {
 }
 .footer-first__social {
   color: white;
-  background-color: #FEA5BB;
+  background-color: #fea5bb;
   width: 44px;
   height: 44px;
   display: flex;
@@ -392,10 +392,10 @@ hr {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-first__social:hover {
-  background-color: #D41443;
+  background-color: #d41443;
 }
 .footer-first__social:focus {
-  background-color: #D41443;
+  background-color: #d41443;
 }
 .footer-first__social-icon {
   fill: currentColor;
@@ -416,7 +416,7 @@ hr {
 }
 .footer-second {
   width: 100%;
-  border-top: 1px solid #E1E1E1;
+  border-top: 1px solid #e1e1e1;
   color: #907e82;
   font-size: 0.875rem;
   text-align: center;
@@ -598,7 +598,7 @@ button {
     padding: 7px 0;
     width: 160px;
     height: 44px;
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -608,7 +608,8 @@ button {
     background: #ffffff;
     margin-left: 30px;
   }
-  .header__btn-buy:hover, .header__btn-buy:focus {
+  .header__btn-buy:hover,
+  .header__btn-buy:focus {
     background-color: #ecebeb;
   }
 }
@@ -640,7 +641,7 @@ button {
 }
 .header__tittle {
   margin-bottom: 19px;
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -672,7 +673,7 @@ button {
 .header__button {
   display: inline;
   padding: 7px 15px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 8px;
@@ -681,14 +682,16 @@ button {
   border-radius: 20px;
   background: #d41443;
 }
-.header__button:hover, .header__button:focus {
+.header__button:hover,
+.header__button:focus {
   background-color: #c7133e;
 }
 .header__button--white {
   color: #d41443;
   background: #ffffff;
 }
-.header__button--white:hover, .header__button--white:focus {
+.header__button--white:hover,
+.header__button--white:focus {
   background-color: #ecebeb;
 }
 @-webkit-keyframes slide {
@@ -709,7 +712,7 @@ button {
 }
 .header__ice {
   -webkit-animation: 1s ease-out 0s 1 slide;
-          animation: 1s ease-out 0s 1 slide;
+  animation: 1s ease-out 0s 1 slide;
   position: absolute;
   top: 77px;
   left: 36px;
@@ -765,7 +768,7 @@ button {
   outline: none;
 }
 .mobilemenu__btn-buy {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -784,7 +787,7 @@ button {
 .mobilemenu__anchor {
   display: block;
   font-style: normal;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -796,7 +799,8 @@ button {
   color: #d41443;
   margin-bottom: 22px;
 }
-.mobilemenu__anchor:hover, .mobilemenu__anchor:focus {
+.mobilemenu__anchor:hover,
+.mobilemenu__anchor:focus {
   color: #d41443;
 }
 
@@ -822,7 +826,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: #ffa5ba;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -833,7 +837,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: #d41443;
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   margin-bottom: 144px;
 }
 .products__types {
@@ -844,7 +848,7 @@ button {
 @media (min-width: 768px) {
   .products__types {
     -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     justify-content: center;
   }
 }
@@ -888,7 +892,7 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  content: "";
+  content: '';
   width: 40px;
   height: 40px;
   bottom: 40px;
@@ -902,7 +906,7 @@ button {
   display: block;
   position: absolute;
   background-image: url(../images/products/ice/ice_mb@1.png);
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   background-size: cover;
@@ -911,7 +915,10 @@ button {
   left: 50%;
   transform: translate(-50%);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__ice::before {
     background-image: url(../images/products/ice/ice_mb@2.png);
   }
@@ -924,7 +931,10 @@ button {
     bottom: 365px;
   }
 }
-@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 768px) and (min-resolution: 192dpi),
+  (min-width: 768px) and (min-resolution: 2dppx) {
   .products .products-item__ice::before {
     background-image: url(../images/products/ice/ice_tb@2.png);
   }
@@ -938,7 +948,10 @@ button {
     bottom: 395px;
   }
 }
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1280px) and (min-resolution: 192dpi),
+  (min-width: 1280px) and (min-resolution: 2dppx) {
   .products .products-item__ice::before {
     background-image: url(../images/products/ice/ice_dt@2.png);
   }
@@ -951,7 +964,7 @@ button {
   position: absolute;
   background-image: url(../images/products/coffee/cf_mb@1.png);
   background-repeat: no-repeat;
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   bottom: 350px;
@@ -963,7 +976,10 @@ button {
     bottom: 390px;
   }
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__coffee {
     background-image: url url(../images/products/coffee/cf_mb@2.png);
   }
@@ -976,7 +992,7 @@ button {
   position: absolute;
   background-image: url(../images/products/milkshakes/ms_mb@1.png);
   background-repeat: no-repeat;
-  content: "";
+  content: '';
   width: 249px;
   height: 252px;
   bottom: 350px;
@@ -988,13 +1004,16 @@ button {
     bottom: 390px;
   }
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .products .products-item__milkshakers {
     background-image: url(../images/products/milkshakes/ms_mb@2.png);
   }
 }
 .products .products-item__tittle {
-  font-family: "Titan One", cursive;
+  font-family: 'Titan One', cursive;
   font-weight: 400;
   font-size: 20px;
   line-height: 0.86;
@@ -1002,7 +1021,7 @@ button {
   text-transform: uppercase;
 }
 .products .products-item__tittle::after {
-  content: "...";
+  content: '...';
   font-size: 25px;
   color: white;
   display: block;
@@ -1019,8 +1038,8 @@ button {
   border: none;
   align-items: center;
   justify-content: center;
-  color: #D41443;
-  font-family: "DM Sans", sans-serif;
+  color: #d41443;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.312;
@@ -1041,11 +1060,11 @@ button {
   align-items: center;
   width: 61.2px;
   height: 24px;
-  background: #D41443;
+  background: #d41443;
   border: none;
   border-radius: 20px;
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
@@ -1069,8 +1088,8 @@ button {
   background: #fff;
   border: none;
   border-radius: 20px;
-  color: #D41443;
-  font-family: "DM Sans", sans-serif;
+  color: #d41443;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
@@ -1085,8 +1104,8 @@ button {
   background: #fff;
   border: none;
   border-radius: 22px;
-  color: #D41443;
-  font-family: "DM Sans", sans-serif;
+  color: #d41443;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.285;
@@ -1098,11 +1117,11 @@ button {
   align-items: center;
   width: 161.45px;
   height: 44px;
-  background: #D41443;
+  background: #d41443;
   border: none;
   border-radius: 22px;
   color: #fff;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.312;
@@ -1151,8 +1170,8 @@ button {
   background: #fff;
   border: none;
   border-radius: 22px;
-  color: #D41443;
-  font-family: "DM Sans", sans-serif;
+  color: #d41443;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.312;
@@ -1269,4 +1288,4 @@ button {
   .container {
     width: 1280px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
