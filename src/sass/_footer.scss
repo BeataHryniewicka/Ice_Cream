@@ -3,7 +3,7 @@
     width: 100%;
     margin: auto;
 
-        padding: 0 15px;
+    padding: 0 15px;
 
         
 
@@ -12,6 +12,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        flex-direction: column;
 
     }
 
@@ -23,15 +25,15 @@
     }
 
     &-first__title {
-        font-size: 1.125rem;
-        line-height: 1.15;
+        font-size: 18px;
+        line-height: 1.17;
         text-transform: uppercase;
         color: #ffa5ba;
         padding-bottom: 1rem;
     }
 
     &-first__title-second {
-        font-size: 2.125rem;
+        font-size: 34px;
         line-height: 1.15;
         text-transform: uppercase;
         color: #d41443;
@@ -39,7 +41,7 @@
 
     &-first__contacts {
         padding-top: 2.6875rem;
-        padding-left: 4.375rem;
+        // padding-left: 4.375rem;
         padding-bottom: 2.6875rem;
         display: flex;
         flex-direction: column;
@@ -131,44 +133,43 @@
         //     text-align: center;
         //     color: #907e82;
         //         font-size: .875rem;
-        //         font-weight: 700;
+            font-weight: 700;
             font-size: 14px;
                 line-height: 152%;
                 width:100%;
-                max-width: 170px;
+                max-width: 150px;
+
     }        
     }
 
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    .footer-first {
-    max-width: 48rem;
-}
-.footer-first__titles{
-    max-width: 23.5rem;
-    padding-bottom: 5.6875rem;
-    padding-left: 2.25rem;
-    font-size: 1.625rem;
-    }
-        .footer-first__contacts{
-            padding: 0 2.25rem 5.6875rem rem 0;
-        }
-        .footer-second p {
-            max-width:100%;
-        }
-}
+
 
 
 
 
 
 @media (min-width: 1200px) {
-    .footer__firstArea {
+    .footer-first {
     max-width: 80rem;
+
+    flex-direction: row;
 }
+
 .footer-first__titles {
     max-width: 36.75rem;
     padding-bottom: 6rem;
-    padding-left: 7.125rem;
+    // padding-left: 7.125rem;
+}
+.footer-first__title {
+    font-size: 30px;
+    line-height: 1.13;
+}
+.footer-first__title-second {
+    font-size: 58px;
+}
+.footer-second p {
+    width: 100%;
+    max-width: 100%;
 }
 }
