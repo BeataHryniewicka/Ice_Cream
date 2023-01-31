@@ -1,0 +1,163 @@
+<header class="header">
+  <div class="header__container">
+    <div class="header__flex">
+      <img
+        id="heroheader"
+        class="header__logo"
+        src="./images/header/logo.png"
+        srcset="./images/header/logox2.png 2x"
+        alt="logo"
+      />
+      <ul class="header__desktopmenu">
+        <li>
+          <a
+            class="header__desktopmenu-anchor header__desktopmenu-anchor--active"
+            href="index.html#heroheader"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a class="header__desktopmenu-anchor" href="#about">About us</a>
+        </li>
+        <li>
+          <a class="header__desktopmenu-anchor" href="#btn_rdmore">How it's made?</a>
+        </li>
+        <li>
+          <a class="header__desktopmenu-anchor" href="#products">Our products</a>
+        </li>
+        <li>
+          <a class="header__desktopmenu-anchor" href="#contacts">Contact</a>
+        </li>
+      </ul>
+      <div class="header__flexicon">
+        <button
+          class="header__btn-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <img class="mobilemenu__icon" src="images/header/hdr_burger.png" />
+        </button>
+        <button class="header__btn-buy" type="button">
+          Buy now
+          <img class="header__icon" src="images/header/hdr_Vector.png" />
+        </button>
+      </div>
+    </div>
+    <div class="header__box">
+      <h1 class="header__tittle">
+        ice cream made with
+        <span class="header__tittle--pink">passion</span>
+      </h1>
+      <button class="header__button" type="button" onclick="window.location.href='#products'">
+        Products
+      </button>
+      <button
+        class="header__button header__button--white"
+        type="button"
+        onclick="window.location.href='#btn_rdmore'"
+      >
+        How it's made?
+      </button>
+    </div>
+    <p class="header__paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et
+    </p>
+    <button type="button" class="header__btn-readmore">
+      <picture>
+        <source srcset="./images/header/hdr_arrow-right_d.png 1x" media="(min-width: 1280px)" />
+        <img src="./images/header/hdr_arrow-right_t.png" alt="strzałka w prawo" />
+      </picture>
+    </button>
+    <picture>
+      <source
+        srcset="./images/header/hdr_ice_d.png 1x, ./images/header/hdr_ice_dx2.png 2x"
+        media="(min-width: 1280px)"
+      />
+
+      <source
+        srcset="./images/header/hdr_ice_t.png 1x, ./images/header/hdr_ice_tx2.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./images/header/hdr_ice_m.png 1x, ./images/header/hdr_ice_mx2.png 2x"
+        media="(min-width: 321px)"
+      />
+      <img class="header__ice" src="./images/header/hdr_ice_320.png" alt="ice cream" />
+    </picture>
+    <picture>
+      <source
+        srcset="./images/header/hdr_cafes_d.png 1x, ./images/header/hdr_cafes_dx2.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/header/hdr_cafes_t.png 1x, ./images/header/hdr_cafes_tx2.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img class="header__cafes" src="./images/header/hdr_cafes_t.png" alt="cafes" />
+    </picture>
+    <picture>
+      <source
+        srcset="./images/header/hdr_foodtrucks_d.png 1x, ./images/header/hdr_foodtrucks_dx2.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/header/hdr_foodtrucks_t.png 1x, ./images/header/hdr_foodtrucks_tx2.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img class="header__foodtrucks" src="./images/header/hdr_foodtrucks_t.png" alt="foodtrucks" />
+    </picture>
+    <picture>
+      <source
+        srcset="./images/header/hdr_milk_d.png 1x, ./images/header/hdr_milk_dx2.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/header/hdr_milk_t.png 1x, ./images/header/hdr_milk_tx2.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img class="header__milk" src="./images/header/hdr_milk_t.png" alt="milk" />
+    </picture>
+    <picture>
+      <source
+        srcset="./images/header/hdr_woman_d.png 1x, ./images/header/hdr_woman_dx2.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/header/hdr_woman_t.png 1x, ./images/header/hdr_woman_tx2.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img class="header__woman" src="./images/header/hdr_woman_t.png" alt="woman" />
+    </picture>
+  </div>
+</header>
+
+<div class="mobilemenu js-menu-container">
+  <button class="mobilemenu__closebtn js-close-menu">
+    <img src="images/header/hdr_btn-close.png" />
+  </button>
+  <button class="mobilemenu__btn-buy" type="button">
+    Buy now <img class="mobilemenu__icon" src="images/header/hdr_Vector.png" />
+  </button>
+
+  <ul class="mobilemenu__details">
+    <li>
+      <a class="mobilemenu__anchor mobilemenu__anchor--active" href="index.html#heroheader">Home</a>
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#about">About us</a>
+      <!--sekcja z krowa -->
+    </li>
+    <!-- <a href="#about">About us</a> <h2 id="about">About</h2>-->
+    <li>
+      <a class="mobilemenu__anchor" href="#btn_rdmore">How it's made?</a>
+      <!--ta kotwica odnosi sie do butona read more (sekcja w oknie modalnym) -->
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#products">Our products</a>
+    </li>
+    <li>
+      <a class="mobilemenu__anchor" href="#contacts">Contact</a>
+    </li>
+  </ul>
+</div>
