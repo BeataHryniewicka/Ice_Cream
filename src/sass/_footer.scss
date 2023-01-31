@@ -11,7 +11,7 @@
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
 
         flex-direction: column;
 
@@ -21,7 +21,8 @@
         font-family: 'Titan One';
         min-width: 14.625rem;
         max-width: 14.625rem;
-        padding-left: 1.25rem rem;
+     
+        margin-bottom: 43px;
     }
 
     &-first__title {
@@ -40,20 +41,19 @@
     }
 
     &-first__contacts {
-        padding-top: 2.6875rem;
-        // padding-left: 4.375rem;
-        padding-bottom: 2.6875rem;
+    
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: end;
 
         align-items: flex-end;
+        margin-bottom: 43px;
     }
 
     &-first__socials {
         display: flex;
-        gap: 1.75rem;
+        gap: 28px;
     }
 
     &-first__socials-list {
@@ -94,7 +94,7 @@
 
     &-first__contact {
         padding-top: 3rem;
-        // display: inline;
+    
         font-size: 0.75rem;
         line-height: 1.86;
         font-weight: 700;
@@ -105,7 +105,7 @@
     }
 
     &-first__contact-link {
-        // padding-top: 3rem;
+   
         display: inline-block;
         text-decoration: none;
         color: #d41443;
@@ -129,10 +129,7 @@
             padding-bottom: 1.5625rem;
     }
     &-second p{
-        // max-width: 150px;
-        //     text-align: center;
-        //     color: #907e82;
-        //         font-size: .875rem;
+    
             font-weight: 700;
             font-size: 14px;
                 line-height: 152%;
@@ -143,13 +140,46 @@
     }
 
 
+@media (min-width: 768px) and (max-width: 1279px) {
+    .footer-first {
+    
+
+        flex-direction: row;
+    }
+
+    .footer-first__titles {
+        max-width: 23.5rem;
+
+        font-size: 1.625rem;
+        margin-left: 36px;
+        margin-bottom: 91px;
+    }
+
+    .footer-first__title {
+        font-size: 26px;
+        line-height: 1.15;
+    }
+
+    .footer-first__title-second {
+        font-size: 48px;
+    }
+
+    .footer-first__contacts {
+    
+        margin-right: 36px;
+    }
+
+    .footer-second p {
+        width: 100%;
+        max-width: 100%;
+    }
+}
 
 
 
 
 
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .footer-first {
     max-width: 80rem;
 
@@ -157,9 +187,9 @@
 }
 
 .footer-first__titles {
-    max-width: 36.75rem;
-    padding-bottom: 6rem;
-    // padding-left: 7.125rem;
+    max-width: 474px;
+
+    margin-bottom: 97px;
 }
 .footer-first__title {
     font-size: 30px;
