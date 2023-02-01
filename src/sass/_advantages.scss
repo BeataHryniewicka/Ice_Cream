@@ -1,13 +1,19 @@
 .advantages-section {
   padding-left: 20px;
   padding-right: 70px;
-  margin-top: 38px;
+  padding-top: 38px;
   background-color: #fff5f6;
 }
 
 @media screen and (min-width: 768px) {
   .advantages-section {
     padding-left: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages-section {
+    padding-left: 115px;
   }
 }
 
