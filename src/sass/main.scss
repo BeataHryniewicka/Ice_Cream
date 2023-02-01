@@ -3,7 +3,11 @@
  * Wszystkie partials podłączamy tutaj.
  */
 
-// Style dla pliku z przykładem HTML fragmentu
+ // Style dla pliku z przykładem HTML fragmentu
+ @import './partials/typography';
+ @import './partials/globals';
+ @import './partials/container';
+ @import './partials/button';
 @import './about';
 @import './advantages';
 @import './contacts';
@@ -12,7 +16,3 @@
 @import './gallery';
 @import './hero-header';
 @import './products';
-@import './partials/button';
-@import './partials/typography';
-@import './partials/globals';
-@import './partials/container';
