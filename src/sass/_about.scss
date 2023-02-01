@@ -140,7 +140,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .about {
     background-color: #fff5f6;
     display: flex;
@@ -150,52 +150,55 @@ hr {
     background: none;
     align-items: flex-start;
     position: relative;
-    &__label {
-      font-size: 30px;
-      line-height: 34px;
-      padding-bottom: 16px;
-      min-width: 100%;
-    }
+    background: url(../images/About/Milk-desktop-min.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .about {
+        background: url(../images/About/Milk-desktop@2x-min.png);
+        background-repeat: no-repeat;
+        background-position-y: 84%;
+        background-size: 100%;
+      }
+      &__label {
+        font-size: 30px;
+        line-height: 34px;
+        padding-bottom: 16px;
+        min-width: 100%;
+      }
 
-    &__title {
-      font-size: 58px;
-      line-height: 66px;
-      padding-bottom: 55px;
-      min-width: 100%;
-    }
+      &__title {
+        font-size: 58px;
+        line-height: 66px;
+        padding-bottom: 55px;
+        min-width: 100%;
+      }
 
-    &__important {
-      font-size: 16px;
-      line-height: 176%;
-      padding: 0 117px 0 0;
-      flex: 0 0 50%;
-      position: absolute;
-      margin-left: 50%;
-    }
+      &__important {
+        font-size: 16px;
+        line-height: 176%;
+        padding: 0 117px 0 0;
+        flex: 0 0 50%;
+        position: absolute;
+        margin-left: 50%;
+      }
 
-    &__comment {
-      font-size: 14px;
-      line-height: 194%;
-      padding: 0 117px 0 0;
-      width: 50%;
-      flex: 0 0 50%;
-      position: absolute;
-      margin-left: 50%;
-      margin-top: 128px;
-      letter-spacing: 0.04em;
+      &__comment {
+        font-size: 14px;
+        line-height: 194%;
+        padding: 0 117px 0 0;
+        width: 50%;
+        flex: 0 0 50%;
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 128px;
+        letter-spacing: 0.04em;
+      }
     }
-  }
-  .bttn {
-    display: flex;
-    margin-left: 90px;
-    margin-top: -100px;
-  }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .about {
-      background: url(../images/About/Milk-desktop@2x-min.png);
-      background-repeat: no-repeat;
-      background-position-y: 84%;
-      background-size: 100%;
+    .bttn {
+      display: flex;
+      margin-left: 90px;
+      margin-top: -100px;
     }
   }
 }
