@@ -10,13 +10,19 @@
   &__list{
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+
+    flex-direction: column;
+
     justify-content: center;
     gap: 20px;
     margin: 0 auto;
     padding: 0;
     padding: inherit;
     width: 100%;
+    @media(min-width: 768px){
+      flex-direction: row;
+    }
+
   }
   &__list--element{
     width: 100%;
