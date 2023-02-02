@@ -5,23 +5,6 @@
   justify-content: center;
   padding-top: 80px;
 
-  // @media (min-width: $tablet) {
-  //   padding-top: 121px;
-  // margin-inline: 74px;
-
-  // @media (min-width: $laptop) {
-  //   padding-top: 123px;
-  // margin-inline: 177px;
-  // }
-
-  // @media (min-width: 768px) {
-  //   margin-inline: 74px;
-  // }
-
-  // @media (min-width: 1200px) {
-  //   margin-inline: 177px;
-  // }
-
   &__description {
     background-color: #fafafa;
     margin: 30px 20px;
@@ -29,6 +12,17 @@
     padding-top: 43px;
     padding-bottom: 26px;
     position: relative;
+
+    @media (min-width: $tablet) {
+      font-size: 14px;
+      line-height: 2.14;
+      padding-inline: 150px;
+    }
+
+    @media (min-width: $laptop) {
+      font-size: 16px;
+      line-height: 1.87;
+    }
 
     &--text {
       font-family: $MainFont;
@@ -64,17 +58,6 @@
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
           background-image: url(../images/Customer-reviews/quotes@x2-min.png);
         }
-
-        // @media (min-width: 768px) {
-        //   font-size: 14px;
-        //   line-height: 2.14;
-        //   width: calc(100% - 64px);
-        // }
-
-        // @media (min-width: 1200px) {
-        //   font-size: 16px;
-        //   line-height: 1.87;
-        // }
       }
     }
   }
