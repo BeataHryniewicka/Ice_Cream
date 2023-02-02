@@ -17,11 +17,14 @@
       font-size: 14px;
       line-height: 2.14;
       padding-inline: 150px;
+      margin: 30px 80px;
     }
 
     @media (min-width: $laptop) {
       font-size: 16px;
       line-height: 1.87;
+      padding-inline: 170px;
+      margin: 30px 177px;
     }
 
     &--text {
