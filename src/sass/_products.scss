@@ -1,19 +1,24 @@
 .products {
-  background-color: #ffffff;
+  background-color: $FoMainWhiteColor;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
   max-width: 280px;
   margin: auto;
+  margin-top: 122px;
 
+  @media (min-width: $tablet) {
+    max-width: none;
+    padding: 0 34px;
+  }
   &__label {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.16;
     text-align: center;
     text-transform: uppercase;
-    color: #ffa5ba;
-    font-family: Titan One;
+    color: $FoMainPinkColor;
+    font-family: $SecondaryFont;
     font-weight: 400;
     margin-bottom: 15px;
   }
@@ -24,15 +29,25 @@
     text-align: center;
     text-transform: uppercase;
     color: $FoDarkPinkColor;
+    font-family: $SecondaryFont;
     margin-bottom: 144px;
+
+    @media (min-width: $laptop) {
+      margin-bottom: 259px;
+    }
   }
   &__types {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 130px;
+    row-gap: 129px;
+
+    @media (min-width: $tablet) {
+      column-gap: 20px;
+      justify-content: center;
+    }
   }
   .products-item {
-    color: #ffffff;
+    color: $FoMainWhiteColor;
     width: 100%;
     height: 485px;
     border-radius: 24px;
@@ -42,6 +57,19 @@
     display: flex;
     flex-direction: column;
 
+    &:last-child {
+      margin-bottom: 98px;
+    }
+    @media (min-width: $tablet) {
+      margin-bottom: 112px;
+      width: 220px;
+    }
+    @media (min-width: $laptop) {
+      margin-bottom: 119px;
+      width: 329px;
+      height: 525px;
+    }
+
     &__description {
       font-family: DM Sans;
       font-weight: 700;
@@ -49,9 +77,10 @@
       width: 200px;
       line-height: 152%;
     }
+
     &__button {
       position: absolute;
-      background-image: url(../images/products/arrow-right.png);
+      background-image: url(../images/Products/arrow-right.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -62,64 +91,139 @@
       left: 50%;
       transform: translate(-50%);
     }
+
     &__ice {
-      background-color: #ffb8ca;
+      background-color: $BgMainPinkColor;
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/products/ice/ice_mb@1.png);
-        background-repeat: no-repeat;
+        background-image: url(../images/Products/ice_mb@1.png);
         content: '';
         width: 249px;
         height: 252px;
+        background-size: cover;
+        background-repeat: no-repeat;
         bottom: 350px;
         left: 50%;
         transform: translate(-50%);
-      }
-      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url(../images/products/ice/ice_mb@2.png);
+
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/Products/ice_mb@2.png);
+        }
+
+        @media (min-width: $tablet) {
+          background-image: url(../images/Products/ice_tb@1.png);
+          width: 220px;
+          height: 226px;
+          bottom: 365px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/ice_tb@2.png);
+          }
+        }
+
+        @media (min-width: $laptop) {
+          bottom: 390px;
+          background-image: url(../images/Products/ice_dt@1.png);
+          width: 335px;
+          height: 335px;
+          bottom: 395px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/ice_dt@2.png);
+          }
+        }
       }
     }
 
     &__coffee {
-      background-color: #f0d1a5;
+      background-color: $BgMainBrownColor;
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/products/coffee/cf_mb@1.png);
-        background-repeat: no-repeat;
+        background-image: url(../images/Products/cf_mb@1.png);
         content: '';
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 249px;
         height: 252px;
         bottom: 350px;
         left: 50%;
         transform: translate(-50%);
-      }
-      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url url(../images/products/coffee/cf_mb@2.png);
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/Products/cf_mb@2.png);
+        }
+
+        @media (min-width: $tablet) {
+          background-image: url(../images/Products/cf_tb@1.png);
+          width: 220px;
+          height: 226px;
+          bottom: 365px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/cf_tb@2.png);
+          }
+        }
+
+        @media (min-width: $laptop) {
+          bottom: 390px;
+          background-image: url(../images/Products/cf_dt@1.png);
+          width: 335px;
+          height: 335px;
+          bottom: 395px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/cf_dt@2.png);
+          }
+        }
       }
     }
 
     &__milkshakers {
-      background-color: #c2e297;
+      background-color: $BgMainGreenColor;
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/products/milkshakes/ms_mb@1.png);
-        background-repeat: no-repeat;
+        background-image: url(../images/Products/ms_mb@1.png);
         content: '';
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 249px;
         height: 252px;
         bottom: 350px;
         left: 50%;
         transform: translate(-50%);
-      }
-      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        background-image: url(../images/products/milkshakes/ms_mb@2.png);
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/Products/ms_mb@2.png);
+        }
+
+        @media (min-width: $tablet) {
+          background-image: url(../images/Products/ms_tb@1.png);
+          width: 220px;
+          height: 226px;
+          bottom: 365px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/ms_tb@2.png);
+          }
+        }
+
+        @media (min-width: $laptop) {
+          bottom: 390px;
+          background-image: url(../images/Products/ms_dt@1.png);
+          width: 335px;
+          height: 335px;
+          bottom: 395px;
+
+          @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url(../images/Products/ms_dt@2.png);
+          }
+        }
       }
     }
 
     &__tittle {
+      font-family: $SecondaryFont;
       font-weight: 400;
       font-size: 20px;
       line-height: 0.86;
