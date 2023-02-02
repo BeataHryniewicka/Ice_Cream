@@ -1,13 +1,6 @@
-/*
- * Główny plik dla stylów.
- * Wszystkie partials podłączamy tutaj.
- */
-
- // Style dla pliku z przykładem HTML fragmentu
- @import './partials/typography';
- @import './partials/globals';
- @import './partials/container';
- @import './partials/button';
+@import './partials/globals';
+@import './partials/container';
+@import './partials/button';
 @import './about';
 @import './advantages';
 @import './contacts';

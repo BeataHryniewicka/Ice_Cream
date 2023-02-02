@@ -14,7 +14,7 @@
     position: relative;
 
     @media (min-width: $tablet) {
-      font-size: 14px;
+      font-size: 0.87px;
       line-height: 2.14;
       padding-inline: 150px;
       margin: 30px 80px;
@@ -74,7 +74,7 @@
 
     &::before {
       content: '...';
-      font-size: 1, 56rem;
+      font-size: 1.56rem;
       color: $HvMainHoverColor;
       display: block;
       position: absolute;
@@ -97,7 +97,7 @@
         top: -13px;
       }
 
-      @media (min-width: 1200px) {
+      @media (min-width: 1280px) {
         top: -15px;
       }
     }

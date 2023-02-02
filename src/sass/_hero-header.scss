@@ -15,6 +15,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     height: 665px;
     padding-top: 37px;
   }
+
   &__container {
     width: 100%;
     margin: 0 auto;
@@ -24,14 +25,17 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     @media screen and (min-width: $mobile) {
       width: $mobile;
     }
+
     @media screen and (min-width: $tablet) {
       width: $tablet;
       padding: 0 34px;
     }
+
     @media screen and (min-width: $laptop) {
       width: $laptop;
     }
   }
+
   &__btn-menu {
     display: flex;
     align-items: center;
@@ -42,9 +46,11 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     border: none;
     outline: none;
     z-index: 6;
+
     @media screen and (min-width: $tablet) {
       margin-bottom: 9px;
     }
+
     @media screen and (min-width: $laptop) {
       display: none;
     }
@@ -52,6 +58,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
 
   &__desktopmenu {
     display: none;
+
     @media screen and (min-width: $laptop) {
       z-index: 2;
       display: flex;
@@ -63,7 +70,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     font-family: $MainFont;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     color: $FoMainWhiteColor;
 
@@ -84,17 +91,19 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
       font-family: $MainFont;
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 21px;
       color: $FoDarkPinkColor;
       border-radius: 22px;
       background: $FoMainWhiteColor;
       margin-left: 30px;
+
       &:hover,
       &:focus {
         background-color: $HvMecondaryHoverColor;
       }
     }
+
     @media screen and (min-width: $laptop) {
     }
   }
@@ -106,6 +115,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
   &__logo {
     @media screen and (min-width: $tablet) {
     }
+
     @media screen and (min-width: $laptop) {
     }
   }
@@ -120,15 +130,18 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
       margin-top: 15px;
       margin-bottom: 173px;
     }
+
     @media screen and (min-width: $laptop) {
       margin-top: 84px;
       margin-bottom: 293px;
       margin-left: 115px;
     }
   }
+
   &__flexicon {
     display: flex;
   }
+
   &__flex {
     display: flex;
     justify-content: space-between;
@@ -141,11 +154,10 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
 
   &__tittle {
     margin-bottom: 19px;
-
     font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 1.62rem;
     line-height: 30px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -155,28 +167,30 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
 
     @media screen and (min-width: $tablet) {
       margin-bottom: 20px;
-      font-size: 22px;
+      font-size: 1.37rem;
       line-height: 26px;
       max-width: 162px;
     }
+
     @media screen and (min-width: $laptop) {
       margin-bottom: 25px;
-      font-size: 38px;
+      font-size: 2.37rem;
       line-height: 44px;
       max-width: 277px;
     }
 
     &--pink {
-      font-size: 48px;
+      font-size: 3rem;
       line-height: 46px;
       color: $FoTittlePinkColor;
+
       @media screen and (min-width: $tablet) {
-        font-size: 34px;
+        font-size: 2.12rem;
         line-height: 31px;
       }
 
       @media screen and (min-width: $laptop) {
-        font-size: 58px;
+        font-size: 3.62rem;
         line-height: 53px;
       }
     }
@@ -187,7 +201,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     font-family: $MainFont;
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.5rem;
     line-height: 10px;
     color: $FoMainWhiteColor;
     border-radius: 20px;
@@ -196,7 +210,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     @media screen and (min-width: $laptop) {
       padding: 0 22px;
       height: 40px;
-      font-size: 14px;
+      font-size: 0.87rem;
       line-height: 18px;
     }
 
@@ -219,37 +233,42 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     0% {
       transform: translateX(100%);
     }
+
     100% {
       transform: translateX(0);
     }
   }
+
   &__paragraph {
     display: none;
     width: 119px;
     font-family: $MainFont;
     font-style: normal;
     font-weight: 400;
-    font-size: 8px;
+    font-size: 0.5rem;
     line-height: 12px;
     color: $FoMainWhiteColor;
-
     position: absolute;
+
     @media screen and (min-width: $tablet) {
       display: block;
       top: 255px;
       left: 154px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 448px;
       left: 295px;
       width: 200px;
-      font-size: 14px;
+      font-size: 0.87rem;
       line-height: 140%;
     }
   }
+
   &__btn-readmore {
     display: none;
     position: absolute;
+
     @media screen and (min-width: $tablet) {
       display: block;
       width: 18px;
@@ -258,6 +277,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
       top: 310px;
       left: 154px;
     }
+
     @media screen and (min-width: $laptop) {
       width: 26px;
       height: 26px;
@@ -265,32 +285,37 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
       left: 295px;
     }
   }
+
   &__ice {
     animation: 1s ease-out 0s 1 slide;
-
     position: absolute;
     top: 77px;
     left: 36px;
 
     @media screen and (min-width: $mobile) {
     }
+
     @media screen and (min-width: $tablet) {
       top: -6px;
       left: 307px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 15px;
       left: 475px;
     }
   }
+
   &__cafes {
     position: absolute;
     display: none;
+
     @media screen and (min-width: $tablet) {
       display: block;
       top: 59px;
       right: 34px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 119px;
       right: 97px;
@@ -300,33 +325,40 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
   &__foodtrucks {
     position: absolute;
     display: none;
+
     @media screen and (min-width: $tablet) {
       display: block;
       top: 115px;
       right: 34px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 211px;
       right: 97px;
     }
   }
+
   &__milk {
     position: absolute;
     display: none;
+
     @media screen and (min-width: $tablet) {
       display: block;
       top: 208px;
       left: 34px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 392px;
       left: 77px;
     }
   }
+
   @keyframes animatezoom {
     from {
       transform: scale(0);
     }
+
     to {
       transform: scale(1);
     }
@@ -336,25 +368,18 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     animation: 1s ease-out 0s 1 animatezoom;
     position: absolute;
     display: none;
+
     @media screen and (min-width: $tablet) {
       display: block;
       top: 229px;
       right: 34px;
     }
+
     @media screen and (min-width: $laptop) {
       top: 396px;
       right: 109px;
     }
   }
-  /*   @media screen and (min-width: $tablet) {
-    height: 399px;
-    padding-top: 37px;
-  }
-
-  @media screen and (min-width: $laptop) {
-    height: 665px;
-    padding-top: 37px;
-  } */
 }
 
 /* MOBILE MENU */
@@ -368,10 +393,10 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
   padding: 60px 21px;
   background-color: $BgDarkPinkColor;
   z-index: 999;
-
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
   text-align: center;
+
   &__details {
     text-align: left;
   }
@@ -379,6 +404,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
   &.is-open {
     transform: translateX(0);
   }
+
   &__closebtn {
     position: absolute;
     top: 10px;
@@ -388,7 +414,6 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -402,7 +427,7 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     font-family: $MainFont;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 21px;
     color: $FoDarkPinkColor;
     background: $FoMainWhiteColor;
@@ -411,24 +436,28 @@ $FoTittlePinkColor: rgba(212, 20, 67, 1);
     height: 44px;
     margin-bottom: 32px;
   }
+
   &__icon {
     display: inline;
     margin-left: 25px;
   }
+
   &__anchor {
     display: block;
     font-style: normal;
     font-family: $MainFont;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.87rem;
     line-height: 18px;
     color: $FoMainWhiteColor;
     margin-bottom: 23px;
+
     &--active {
       color: $FoDarkPinkColor;
       margin-bottom: 22px;
     }
+
     &:hover,
     &:focus {
       color: $FoDarkPinkColor;

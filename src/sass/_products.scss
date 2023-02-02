@@ -49,6 +49,7 @@
       justify-content: center;
     }
   }
+
   .products-item {
     color: $FoMainWhiteColor;
     width: 100%;
@@ -99,6 +100,7 @@
 
     &__ice {
       background-color: $BgMainPinkColor;
+
       &::before {
         display: block;
         position: absolute;
@@ -143,6 +145,7 @@
 
     &__coffee {
       background-color: $BgMainBrownColor;
+
       &::before {
         display: block;
         position: absolute;
@@ -187,6 +190,7 @@
 
     &__milkshakers {
       background-color: $BgMainGreenColor;
+
       &::before {
         display: block;
         position: absolute;
