@@ -21,7 +21,7 @@
     }
 
     @media (min-width: $laptop) {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.87;
       padding-inline: 170px;
       margin: 30px 177px;
@@ -29,7 +29,7 @@
 
     &--text {
       font-family: $MainFont;
-      font-size: 12px;
+      font-size: 0.75rem;
       font-weight: 500;
       line-height: 2.55;
       color: $FoMainBlackColor;
@@ -66,7 +66,7 @@
   }
 
   &__client {
-    font-size: 14px;
+    font-size: 0.075rem;
     font-weight: 500;
     line-height: 1.85;
     position: relative;
@@ -74,7 +74,7 @@
 
     &::before {
       content: '...';
-      font-size: 25px;
+      font-size: 1, 56rem;
       color: $HvMainHoverColor;
       display: block;
       position: absolute;
