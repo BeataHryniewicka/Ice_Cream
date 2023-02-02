@@ -470,13 +470,18 @@ hr {
 .advantages-section {
   padding-left: 20px;
   padding-right: 70px;
-  margin-top: 38px;
+  padding-top: 38px;
   background-color: #fff5f6;
 }
 
 @media screen and (min-width: 768px) {
   .advantages-section {
     padding-left: 36px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantages-section {
+    padding-left: 115px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -841,72 +846,44 @@ hr {
   align-items: center;
   justify-content: center;
   padding-top: 80px;
-  margin-inline: 20px;
 }
 @media (min-width: 768px) {
   .reviews {
     padding-top: 121px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .reviews {
     padding-top: 123px;
   }
 }
-@media (min-width: 768px) {
-  .reviews {
-    margin-inline: 74px;
-  }
-}
-@media (min-width: 1200px) {
-  .reviews {
-    margin-inline: 177px;
-  }
-}
-.reviews--img {
-  width: 85px;
-  height: 85px;
-  margin-bottom: 29px;
-}
 .reviews--description {
-  background-color: #E5E5E5;
+  background-color: #fafafa;
   position: relative;
-  margin-bottom: 52px;
-  margin: 0 20px 30px 20px;
-  padding-bottom: 20px;
+  margin: 30px 20px;
+  padding-inline: 65px;
+  padding-top: 43px;
+  padding-bottom: 26px;
 }
-.reviews--description__text {
-  margin: 0 auto;
+.reviews__text {
   font-family: "DM Sans", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 2.55;
   color: #000000;
   text-align: center;
-  margin-top: 43px;
-  z-index: 3;
-  width: calc(100% - 23px);
 }
-@media (min-width: 768px) {
-  .reviews--description__text {
-    font-size: 14px;
-    line-height: 2.14;
-    width: calc(100% - 64px);
-  }
-}
-@media (min-width: 1200px) {
-  .reviews--description__text {
-    font-size: 16px;
-    line-height: 1.87;
-  }
-}
-.reviews--description__quotes {
+.reviews__text::before {
+  display: block;
+  position: absolute;
+  background-image: url(./images/Customer-reviews/quotes-min.png);
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 54px;
   height: 40px;
-  position: absolute;
   top: 28px;
   left: 62px;
-  z-index: 0;
 }
 .reviews--client {
   font-size: 14px;
@@ -947,6 +924,7 @@ hr {
   width: 100%;
   margin: auto;
   padding: 0 15px;
+  padding-top: 113px;
 }
 .footer-first {
   margin: auto;
@@ -1048,11 +1026,13 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    padding-top: 165px;
+  }
   .footer-first {
     flex-direction: row;
   }
   .footer-first__titles {
-    max-width: 23.5rem;
     font-size: 1.625rem;
     margin-left: 36px;
     margin-bottom: 91px;

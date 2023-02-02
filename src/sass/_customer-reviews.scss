@@ -3,106 +3,117 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   padding-top: 80px;
 
-  @media (min-width: 768px) {
-    padding-top: 121px;
-  }
+  // @media (min-width: $tablet) {
+  //   padding-top: 121px;
+  // margin-inline: 74px;
 
-  @media (min-width: 1200px) {
-    padding-top: 123px;
-  }
+  // @media (min-width: $laptop) {
+  //   padding-top: 123px;
+  // margin-inline: 177px;
+  // }
 
-  margin-inline: 20px;
+  // @media (min-width: 768px) {
+  //   margin-inline: 74px;
+  // }
 
-  @media (min-width: 768px) {
-    margin-inline: 74px;
-  }
+  // @media (min-width: 1200px) {
+  //   margin-inline: 177px;
+  // }
 
-  @media (min-width: 1200px) {
-    margin-inline: 177px;
-  }
-
-  &--img {
-    width: 85px;
-    height: 85px;
-    margin-bottom: 29px;
-  }
-
-  &--description {
-    background-color: #E5E5E5;
+  &__description {
+    background-color: #fafafa;
     position: relative;
-    margin-bottom: 52px;
-    margin: 0 20px 30px 20px;
-    padding-bottom: 20px;
+    margin: 30px 20px;
+    padding-inline: 123px;
+    padding-top: 43px;
+    padding-bottom: 26px;
 
-    &__text {
-      margin: 0 auto;
+    &--text {
       font-family: $MainFont;
       font-size: 12px;
       font-weight: 500;
       line-height: 2.55;
       color: $FoMainBlackColor;
       text-align: center;
-      margin-top: 43px;
-      z-index: 3;
 
-      width: calc(100% - 23px);
+      &::before {
+        display: block;
+        position: absolute;
+        background-image: url(../images/Customer-reviews/quotes-min.png);
+        content: '';
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 54px;
+        height: 40px;
+        top: 28px;
+        left: 130px;
+        // z-index: ;
 
-      @media (min-width: 768px) {
-        font-size: 14px;
-        line-height: 2.14;
-        width: calc(100% - 64px);
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+          background-image: url(../images/Customer-reviews/quotes@x2-min.png);
+        }
+
+        // @media (min-width: 768px) {
+        //   font-size: 14px;
+        //   line-height: 2.14;
+        //   width: calc(100% - 64px);
+        // }
+
+        // @media (min-width: 1200px) {
+        //   font-size: 16px;
+        //   line-height: 1.87;
+        // }
       }
-
-      @media (min-width: 1200px) {
-        font-size: 16px;
-        line-height: 1.87;
-      }
-    }
-
-    &__quotes {
-      width: 54px;
-      height: 40px;
-      position: absolute;
-      top: 28px;
-      left: 62px;
-      z-index: 0;
     }
   }
 
-  &--client {
+  &__client {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.85;
     position: relative;
-  }
+    margin-top: 22px;
 
-  &--client::before {
-    // background-image: url('./images/spirte.svg#icon-dots');
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 4px;
-    position: absolute;
-    top: -18px;
-    left: 42px;
-
-    @media (min-width: 768px) {
-      top: -13px;
+    &::before {
+      content: '...';
+      font-size: 25px;
+      color: $HvMainHoverColor;
+      display: block;
+      position: absolute;
+      letter-spacing: 10px;
+      bottom: 30px;
+      left: 50%;
+      transform: translate(-50%);
     }
 
-    @media (min-width: 1200px) {
-      top: -15px;
+    &::after {
+      background-image: url(../images/spirte.svg#icon-dots);
+      background-repeat: no-repeat;
+      width: 32px;
+      height: 4px;
+      position: absolute;
+      top: -18px;
+      left: 42px;
+
+      @media (min-width: 768px) {
+        top: -13px;
+      }
+
+      @media (min-width: 1200px) {
+        top: -15px;
+      }
     }
   }
 
-  &--options {
+  &__options {
     margin-top: 30px;
     display: flex;
     gap: 18px;
+    margin-bottom: 170px;
 
-    &__svg {
+    &--svg {
       width: 12px;
       height: 12px;
     }
