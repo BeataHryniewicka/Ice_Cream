@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
 
-  background: url(../images/About/Milk-mobile-min.png);
+  background: url('/src/images/About/Milk-mobile-min.png');
   background-repeat: no-repeat;
   background-position-y: 84%;
   background-size: 100%;
@@ -70,7 +70,7 @@
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about {
-    background: url(../images/About/Milk-mobile@2x-min.png);
+    background: url('/src/images/About/Milk-mobile@2x-min.png');
     background-repeat: no-repeat;
     background-position-y: 84%;
     background-size: 100%;
@@ -147,14 +147,14 @@ hr {
     background: none;
     align-items: flex-start;
     position: relative;
-    background: url(../images/About/Milk-desktop-min.png);
+    background: url('/src/images/About/Milk-desktop-min.png');
     background-repeat: no-repeat;
     background-size: 100%;
 
     @media screen and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background: url(../images/About/Milk-desktop@2x-min.png);
+      background: url('/src/images/About/Milk-desktop@2x-min.png');
       background-repeat: no-repeat;
       background-position-y: 84%;
       background-size: 100%;

@@ -80,7 +80,7 @@
 
     &__button {
       position: absolute;
-      background-image: url(../images/Products/arrow-right.png);
+      background-image: url('/src/images/Products/arrow-right.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -97,7 +97,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/Products/ice_mb@1.png);
+        background-image: url('/src/images/Products/ice_mb@1.png');
         content: '';
         width: 249px;
         height: 252px;
@@ -108,29 +108,29 @@
         transform: translate(-50%);
 
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-          background-image: url(../images/Products/ice_mb@2.png);
+          background-image: url('/src/images/Products/ice_mb@2.png');
         }
 
         @media (min-width: $tablet) {
-          background-image: url(../images/Products/ice_tb@1.png);
+          background-image: url('/src/images/Products/ice_tb@1.png');
           width: 220px;
           height: 226px;
           bottom: 365px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/ice_tb@2.png);
+            background-image: url('/src/images/Products/ice_tb@2.png');
           }
         }
 
         @media (min-width: $laptop) {
           bottom: 390px;
-          background-image: url(../images/Products/ice_dt@1.png);
+          background-image: url('/src/images/Products/ice_dt@1.png');
           width: 335px;
           height: 335px;
           bottom: 395px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/ice_dt@2.png);
+            background-image: url('/src/images/Products/ice_dt@2.png');
           }
         }
       }
@@ -141,7 +141,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/Products/cf_mb@1.png);
+        background-image: url('/src/images/Products/cf_mb@1.png');
         content: '';
         background-repeat: no-repeat;
         background-size: cover;
@@ -151,29 +151,29 @@
         left: 50%;
         transform: translate(-50%);
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-          background-image: url(../images/Products/cf_mb@2.png);
+          background-image: url('/src/images/Products/cf_mb@2.png');
         }
 
         @media (min-width: $tablet) {
-          background-image: url(../images/Products/cf_tb@1.png);
+          background-image: url('/src/images/Products/cf_tb@1.png');
           width: 220px;
           height: 226px;
           bottom: 365px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/cf_tb@2.png);
+            background-image: url('/src/images/Products/cf_tb@2.png');
           }
         }
 
         @media (min-width: $laptop) {
           bottom: 390px;
-          background-image: url(../images/Products/cf_dt@1.png);
+          background-image: url('/src/images/Products/cf_dt@1.png');
           width: 335px;
           height: 335px;
           bottom: 395px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/cf_dt@2.png);
+            background-image: url('/src/images/Products/cf_dt@2.png');
           }
         }
       }
@@ -184,7 +184,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/Products/ms_mb@1.png);
+        background-image: url('/src/images/Products/ms_mb@1.png');
         content: '';
         background-repeat: no-repeat;
         background-size: cover;
@@ -194,29 +194,29 @@
         left: 50%;
         transform: translate(-50%);
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-          background-image: url(../images/Products/ms_mb@2.png);
+          background-image: url('/src/images/Products/ms_mb@2.png');
         }
 
         @media (min-width: $tablet) {
-          background-image: url(../images/Products/ms_tb@1.png);
+          background-image: url('/src/images/Products/ms_tb@1.png');
           width: 220px;
           height: 226px;
           bottom: 365px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/ms_tb@2.png);
+            background-image: url('/src/images/Products/ms_tb@2.png');
           }
         }
 
         @media (min-width: $laptop) {
           bottom: 390px;
-          background-image: url(../images/Products/ms_dt@1.png);
+          background-image: url('/src/images/Products/ms_dt@1.png');
           width: 335px;
           height: 335px;
           bottom: 395px;
 
           @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../images/Products/ms_dt@2.png);
+            background-image: url('/src/images/Products/ms_dt@2.png');
           }
         }
       }
