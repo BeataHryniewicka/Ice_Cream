@@ -49,7 +49,7 @@
       &::before {
         display: block;
         position: absolute;
-        background-image: url(../images/Customer-reviews/quotes-min.png);
+        background-image: url('/src/images/Customer-reviews/quotes-min.png');
         content: '';
         background-size: cover;
         background-repeat: no-repeat;
@@ -59,7 +59,7 @@
         z-index: -1;
 
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-          background-image: url(../images/Customer-reviews/quotes@x2-min.png);
+          background-image: url('/src/images/Customer-reviews/quotes@x2-min.png');
         }
       }
     }
@@ -85,7 +85,7 @@
     }
 
     &::after {
-      background-image: url(../images/spirte.svg#icon-dots);
+      background-image: url('/src/images/spirte.svg#icon-dots');
       background-repeat: no-repeat;
       width: 32px;
       height: 4px;
