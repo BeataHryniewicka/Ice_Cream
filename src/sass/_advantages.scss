@@ -6,35 +6,6 @@
   padding-bottom: 145px;
 }
 
-@media screen and (min-width: 768px) {
-  .advantages-section {
-    padding-left: 36px;
-    padding-bottom: 246px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .advantages-section {
-    padding-left: 115px;
-    padding-bottom: 310px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .advantages-section__list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 60px;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .advantages-section__item {
-    margin-top: 38px;
-  }
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -80,24 +51,6 @@
   margin-top: 16px;
 }
 
-@media screen and (min-width: 768px) {
-  .advantages-section__header {
-    margin-top: 36px;
-    margin-bottom: 13px;
-    font-size: 3rem;
-    line-height: 55px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .advantages-section__header {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: 3.62rem;
-    line-height: 66px;
-  }
-}
-
 .advantages-section__description {
   font-family: 'DM Sans';
   font-style: normal;
@@ -115,6 +68,29 @@
 }
 
 @media screen and (min-width: 768px) {
+  .advantages-section {
+    padding-left: 36px;
+    padding-bottom: 246px;
+  }
+
+  .advantages-section__list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+    justify-content: center;
+  }
+
+  .advantages-section__item {
+    margin-top: 38px;
+  }
+
+  .advantages-section__header {
+    margin-top: 36px;
+    margin-bottom: 13px;
+    font-size: 3rem;
+    line-height: 55px;
+  }
+
   .advantages-section__description {
     font-size: 0.87rem;
     line-height: 174%;
@@ -123,6 +99,18 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .advantages-section {
+    padding-left: 115px;
+    padding-bottom: 310px;
+  }
+
+  .advantages-section__header {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 3.62rem;
+    line-height: 66px;
+  }
+
   .advantages-section__description {
     font-size: 1rem;
     line-height: 176%;
